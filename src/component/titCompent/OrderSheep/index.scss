@@ -1,0 +1,12 @@
+.order-sheep{
+
+    height: 60vh;
+    overflow: auto;
+
+    .title-list{
+        >span{
+            color: #666;
+            line-height: 24px;
+        }
+    }
+}

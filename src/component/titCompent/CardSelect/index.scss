@@ -1,0 +1,107 @@
+
+
+.card-select{
+    width: 92vw;
+    margin: 4vw;
+    box-shadow: 0px 0px 10px #dddddd;
+
+    .am-calendar .confirm-panel .button{
+        background-color: #fb9829;
+    }
+    .am-calendar .confirm-panel .button-disable {
+        color: #bbb;
+        background: #ddd;
+    }
+
+    .focus-address{
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        background-image: url(/img/small/focusaddress.png);
+        background-size: cover;
+        vertical-align: middle;
+    }
+
+    .hotel-name{
+        width: 96%;
+        height: 70%;
+        margin: auto;
+        background-color: rgba($color: #000000, $alpha: 0);
+        font-size: 18px;
+    }
+
+    .starlevel{
+        font-size: 18px;
+        padding-left: 8px;
+        padding-right: 8px;
+        height: 58px;
+        width: 84vw;
+        line-height: 50px;
+        margin: auto;
+
+        >span{
+            float: right;
+            color: #666;
+            font-size: 16px;
+        }
+    }
+
+    ul{
+
+        li{
+            height: 58px;
+            width: 94%;
+            margin: 0 auto;
+            border-bottom: 1px solid #ddd;
+            overflow: hidden;
+            display: flex;
+        }
+    }
+
+    .location{
+        
+        color: #fb9829;
+        height: 20px;
+        flex-grow: 1;
+        margin-top: 28px;
+        border-right: 1px solid #ddd;
+    }
+    .now-position{
+        text-align: center;
+        margin-top: 28px;
+        flex-basis: 80px;
+        flex-basis: 109px;
+    }
+
+    .in-hotel{
+        display: flex;
+        flex-direction: column-reverse;
+        flex-grow: 1;
+
+        .in-day{
+            line-height: 30px;
+            font-size: 18px;
+            font-weight: 600;
+            color: #fb9829;
+            margin-right: 4px;
+        }
+    }
+    .out-hotel{
+        display: flex;
+        flex-direction: column-reverse;
+        flex-grow: 1;
+
+        .out-day{
+            line-height: 30px;
+            font-size: 18px;
+            font-weight: 600;
+            color: #fb9829;
+            margin-right: 4px;
+        }
+    }
+    .hotel-time{
+        text-align: center;
+        padding-top: 28px;
+        width: 80px;
+    }
+}
